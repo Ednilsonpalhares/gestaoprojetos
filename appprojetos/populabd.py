@@ -1,7 +1,7 @@
 from django.db import transaction,IntegrityError
 from appprojetos.models import *
 
-# Criando professor responsavel
+# Criando professor resp
 
 profess1 =ProfessorResponsavel(matricula='1022',cpfProfessor='000.111.222-33',nome='jorge',)
 profess2 =ProfessorResponsavel(matricula='2002',cpfProfessor='000.110.222-33',nome='Bruno')
