@@ -55,7 +55,7 @@ membro4 = MembroParticipante(nome='Claudio',email='cla@gmail.com',telefone='9830
 membro5 = MembroParticipante(nome='Amanda',email='lai@gmail.com',telefone='9800-9922')
 membro6 = MembroParticipante(nome='Karol',email='karol@gmail.com',telefone='8800-9922')
 membro7 = MembroParticipante(nome='Ana',email='ana@gmail.com',telefone='9200-9922')
-
+#bj
 
 membro1.save()
 membro2.save()
