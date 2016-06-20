@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e198012-0e12-4fb0-a205-dbf572cad13d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appprojetos/migrations/0002_remove_professorresponsavel_projetosubmetido.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appprojetos/migrations/0003_remove_atividade_nome.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appprojetos/migrations/0004_auto_20160617_1352.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appprojetos/migrations/0005_auto_20160617_1611.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appprojetos/migrations/0006_auto_20160617_1719.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diagrama de classe/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gestaoprojetos/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gestaoprojetos/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gestaoprojetos/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gestaoprojetos/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagrama de classe/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagrama de classe/diagrama.asta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagrama de classes/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagrama de classes/diagrama.asta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gestaoprojetos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +31,7 @@
       <file leaf-file-name="populabd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appprojetos/populabd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="840">
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -86,9 +80,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="680" />
-    <option name="height" value="744" />
+    <option name="y" value="-4" />
+    <option name="width" value="1360" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -115,8 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,20 +126,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diagrama de classe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,6 +370,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2e198012-0e12-4fb0-a205-dbf572cad13d" name="Default" comment="" />
@@ -419,14 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1466449109879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/ed9trabalho/gestaoprojetos&#10;&#10;Conflicts:&#10;&#9;.idea/vcs.xml&#10;&#9;appprojetos/consultas.py&#10;&#9;appprojetos/populabd.py&#10;">
+      <created>1466460006384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466460006384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="680" height="744" extended-state="4" />
+    <frame x="0" y="-4" width="1360" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4985294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2492647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -446,12 +436,21 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sas" />
-    <option name="LAST_COMMIT_MESSAGE" value="sas" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/ed9trabalho/gestaoprojetos&#10;&#10;Conflicts:&#10;&#9;.idea/vcs.xml&#10;&#9;appprojetos/consultas.py&#10;&#9;appprojetos/populabd.py&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ed9trabalho/gestaoprojetos&#10;&#10;Conflicts:&#10;&#9;.idea/vcs.xml&#10;&#9;appprojetos/consultas.py&#10;&#9;appprojetos/populabd.py&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -460,7 +459,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/appprojetos/populabd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="840">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -486,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagrama de classe/diagrama.asta">
+    <entry file="file://$PROJECT_DIR$/appprojetos/consultas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -494,19 +493,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appprojetos/diagrama.asta">
+    <entry file="file://$PROJECT_DIR$/appprojetos/populabd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="840">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Diagrama de classe/diagrama.asta" />
+    <entry file="file://$PROJECT_DIR$/appprojetos/diagrama.asta" />
     <entry file="file://$PROJECT_DIR$/diagrama de classe/diagrama.asta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
