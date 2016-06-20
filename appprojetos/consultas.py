@@ -13,13 +13,6 @@ for me in MembroParticipante.objects.filter(nome__startswith='A'):
     print(me)
 '''''
 
-ativ= ProjetoPesquisa.objects.all()
-for e in ativ:
-    soma = 0
-    print(e.titulo)
-    for i in e.atividade_set.all():
-        soma+=i.custo
-    print('total ',soma)
 
 
 
