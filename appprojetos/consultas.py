@@ -18,11 +18,11 @@ for me in MembroParticipante.objects.filter(nome__startswith='A'):
 print("------------------------------ 4.c)")
 ativ= ProjetoPesquisa.objects.all()
 for e in ativ:
-    soma = 0
+    total = 0
     print(e.titulo)
     for i in e.atividade_set.all():
-        soma+=i.custo
-    print('Custo total ',soma)
+        total+=i.custo
+    print('Custo total ',total)
 
 print("------------------------------- 4.d)")
 #print(ProjetoPesquisa.objects.all())
