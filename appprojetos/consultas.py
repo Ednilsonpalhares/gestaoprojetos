@@ -1,28 +1,26 @@
 from appprojetos.models import *
 
-for e in ProjetoPesquisa.objects.all():
-    print(e.titulo)
-    print(end='membros do projetos')
-    for i in e.membro.all():
-        print(i.nome)
+for projeto in ProjetoPesquisa.objects.all():
+    print(projeto.titulo)
+    print(end='Membros do projetos\n')
+    for mem in projeto.membro.all():
+        print(mem.nome)
 print("--------------------------- 4.a)")
 
-for at in Atividade.objects.filter(dataInicio__month=5,
-                                   dataInicio__year=2015):
-    print(at)
+for atividade in Atividade.objects.filter(dataInicio__month=5,dataInicio__year=2015):
+    print(atividade)
 print("---------------------------- 4.b)")
 
-for me in MembroParticipante.objects.filter(nome__startswith='A'):
-    print(me)
+for memproparticipante in MembroParticipante.objects.filter(nome__startswith='A'):
+    print(memproparticipante)
 
 print("------------------------------ 4.c)")
-ativ= ProjetoPesquisa.objects.all()
-for e in ativ:
+projetoPesqui= ProjetoPesquisa.objects.all()
+for ativida in projetoPesqui:
     total = 0
-    print(e.titulo)
-    for i in e.atividade_set.all():
+    for i in ativida.atividade_set.all():
         total+=i.custo
-    print('Custo total ',total)
+    print('Custo total do projeto %s: R$ %.2f'%(ativida.titulo,total))
 
 print("------------------------------- 4.d)")
 #print(ProjetoPesquisa.objects.all())
