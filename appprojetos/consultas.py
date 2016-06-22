@@ -1,11 +1,12 @@
 from appprojetos.models import *
 
 for projeto in ProjetoPesquisa.objects.all():
-    print("Projeto: {0:s} - Membros: {1:s}".format(ProjetoPesquisa.titulo, ProjetoPesquisa.membro))
+    print(projeto.titulo,end=' membros do projeto \n')
+    for membro in projeto.membro.all():
+        print(membro.nome)
 
-atividade=Atividade.objects.filter(dataInicio__month=5, dataInicio__year=2015)
-print(atividade)
+for atividade in Atividade.objects.filter(dataInicio__month=5, dataInicio__year=2015):
+    print(atividade)
 
-pessoas=MembroParticipante.objects.filter(nome__startswith='A')
-print(pessoas)
-
+for pessoas in MembroParticipante.objects.filter(nome__startswith='A'):
+    print(pessoas)
