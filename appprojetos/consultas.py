@@ -2,7 +2,7 @@ from appprojetos.models import *
 
 for e in ProjetoPesquisa.objects.all():
     print(e.titulo)
-    print(end='membros do projetos\n')
+    print(end='membros do projetos')
     for i in e.membro.all():
         print(i.nome)
 print("--------------------------- 4.a)")
