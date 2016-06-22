@@ -6,6 +6,7 @@ from appprojetos.models import *
 profess1 =ProfessorResponsavel(matricula='1022',cpfProfessor='000.111.222-33',nome='jorge',)
 profess2 =ProfessorResponsavel(matricula='2002',cpfProfessor='000.110.222-33',nome='Bruno')
 profess3 =ProfessorResponsavel(matricula='3032',cpfProfessor='000.101.222-33',nome='Fernando')
+
 profess1.save()
 profess2.save()
 profess3.save()
@@ -30,7 +31,7 @@ registro3.save()
 registro4.save()
 registro5.save()
 
-atividade1=Atividade(descricao='estudar como ensinar crianças',dataInicio='2015-04-03',dataTerminio='2016-01-01',projetoPesquisa=projeto2,custo=2000,
+atividade1=Atividade(descricao='estudar como ensinar crianças',dataInicio='2015-05-03',dataTerminio='2016-01-01',projetoPesquisa=projeto2,custo=2000,
                      registro=registro1)
 atividade2=Atividade(descricao='estudar a joventude',dataInicio='2016-01-23',dataTerminio='2016-03-01',projetoPesquisa=projeto3,custo=3000,
                      registro=registro2)
@@ -51,13 +52,18 @@ membro1 = MembroParticipante(nome='jose',email='js@gmail.com',telefone='0000-992
 membro2 = MembroParticipante(nome='Maria',email='mar@gmail.com',telefone='9100-9922')
 membro3 = MembroParticipante(nome='Marcelo',email='marc@gmail.com',telefone='8000-9922')
 membro4 = MembroParticipante(nome='Claudio',email='cla@gmail.com',telefone='9830-9922')
-membro5 = MembroParticipante(nome='Laise',email='lai@gmail.com',telefone='9800-9922')
+membro5 = MembroParticipante(nome='Amanda',email='lai@gmail.com',telefone='9800-9922')
+membro6 = MembroParticipante(nome='Karol',email='karol@gmail.com',telefone='8800-9922')
+membro7 = MembroParticipante(nome='Ana',email='ana@gmail.com',telefone='9200-9922')
+
 
 membro1.save()
 membro2.save()
 membro3.save()
 membro4.save()
 membro5.save()
+membro6.save()
+membro7.save()
 
 projeto1.membro.add(membro1,membro4)
 projeto2.membro.add(membro2,membro3)
