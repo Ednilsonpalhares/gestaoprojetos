@@ -16,6 +16,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="SISPROD" />
     <orderEntry type="module" module-name="projetovendas" />
+    <orderEntry type="module" module-name="projetovendas" />
+    <orderEntry type="module" module-name="projetovendas" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
