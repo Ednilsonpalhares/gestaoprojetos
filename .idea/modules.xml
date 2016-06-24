@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../SISPROD/.idea/SISPROD.iml" filepath="$PROJECT_DIR$/../SISPROD/.idea/SISPROD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gestaoprojetos.iml" filepath="$PROJECT_DIR$/.idea/gestaoprojetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projetovendas/.idea/projetovendas.iml" filepath="$PROJECT_DIR$/../projetovendas/.idea/projetovendas.iml" />
     </modules>
   </component>
 </project>
