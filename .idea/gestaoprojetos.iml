@@ -19,7 +19,7 @@
     <orderEntry type="module" module-name="projetovendas" />
     <orderEntry type="module" module-name="projetovendas" />
     <orderEntry type="module" module-name="atividadeEntrega" />
-    <orderEntry type="module" module-name="mysite" />
+    <orderEntry type="module" module-name="blog" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
