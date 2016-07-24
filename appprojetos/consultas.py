@@ -1,5 +1,3 @@
-from appprojetos.models import *
-
 for projeto in ProjetoPesquisa.objects.all():
     print(projeto.titulo)
     print(end='Membros do projetos\n')
